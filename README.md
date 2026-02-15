@@ -1,39 +1,18 @@
-# QA Practices and Testing
+# git-practice
 
-## Introduction
-This repository is designed to help learners acquire skills in Quality Assurance (QA) with a special focus on browser testing and preparing for using the Brave browser.
+A repository for practicing git workflows and Quality Assurance (QA) skills. This repo contains a sample project, testing examples, QA checklists, and git workflow guidance designed to help you prepare for QA engineering roles (including at Brave).
 
-## QA Practices
-- **Understanding Software Testing:** Get familiar with different testing types such as functional, non-functional, manual, and automated testing.
-- **Key Concepts:** Grasp important QA concepts like test cases, test plans, defects, and test automation frameworks.
-- **Best Practices:**  
-  - Write clear and concise test cases.  
-  - Maintain a testing log.  
-  - Regularly review testing methods and frameworks.
+Structure:
+- TESTING_GUIDE.md — QA best practices and how to run sample tests
+- git-workflows/ — branching, commit, and PR guidance
+- tests/ — QA checklists and test examples
+- sample-project/ — a tiny Node.js sample app with tests to practice running and writing tests
+- resources/ — links and notes useful for QA and Brave prep
 
-## Testing Methodologies
-1. **Manual Testing:** Understanding user experiences and functionality designs.
-2. **Automated Testing:** Learn about tools and frameworks for automated testing.
-   - Selenium, Cypress, etc.
-3. **Load Testing:** Testing the performance of the application under high traffic.
+How to get started locally:
+1. Clone the repo: `git clone https://github.com/DeJuanbtc/git-practice.git`
+2. Change into sample project: `cd git-practice/sample-project`
+3. Install dependencies: `npm install`
+4. Run tests: `npm test`
 
-## Browser Testing
-- **Importance of Browser Testing:** Ensure your application looks and functions correctly across different web browsers.
-- **Testing Strategies:**  
-  - Cross-browser testing.  
-  - Responsive testing for mobile web applications.
-
-## Brave Browser Preparation
-- **Setting Up Brave Browser for Testing:**  
-  - Download and install the Brave Browser from [Brave Browser Official Site](https://brave.com/).
-  - Familiarize yourself with its features like Ad Block, Tracking Protection, and rewards programs.
-- **Testing on Brave:**  
-  - Understand the unique attributes of Brave browser and how it impacts the UI and functionality of web applications.
-
-## Repository Structure
-- `/tests`: Contains all test scripts and automation scripts.
-- `/docs`: Documentation related to QA practices and tools.
-- `/resources`: Additional resources for learning QA skills such as articles, videos, and tutorials.
-
-## Conclusion
-This README serves as a comprehensive guide for anyone looking to delve into QA practices with a strong focus on browser testing and the Brave browser. Happy learning!
+If you want to practice git workflows, create a feature branch and open a pull request using the PR_CHECKLIST.md guidance.
